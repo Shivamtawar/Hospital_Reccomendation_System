@@ -431,6 +431,14 @@ def home():
     <a href="/api/recommend?latitude=19.9975&longitude=73.7898&disease=cardiology&top_n=3">
         /api/recommend?latitude=19.9975&longitude=73.7898&disease=cardiology&top_n=3
     </a>
+    
+    <h3>New Search Example:</h3>
+    <p><strong>GET /api/search</strong> examples:</p>
+    <ul>
+        <li><a href="/api/search?city=Pune">/api/search?city=Pune</a></li>
+        <li><a href="/api/search?specialty=Cardiology">/api/search?specialty=Cardiology</a></li>
+        <li><a href="/api/search?city=Mumbai&specialty=Neurology">/api/search?city=Mumbai&specialty=Neurology</a></li>
+    </ul>
     """
 
 # Error handlers
